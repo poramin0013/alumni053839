@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.ABbody{
+  height: 100vh;
+  color: #ffffff;
+  margin: 1%;
+  margin-bottom: 5%;
+}
+.ABcontainer{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.left-side{
+  width: 25%;
+  position: relative;
+  margin: 1%;
+}
+.left-side a{
+  display: block;
+  background: #fff;
+  padding: 15px 25px;
+  color: #000000;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 25px 5px;
+  text-decoration: none;
+  border: 1px solid #7e7d7d;
+  text-align: center;
+}
+.left-side a:hover{
+  background: #3a3a3a;
+  color: #fff;
+}
+.right-side{
+  position: relative;
+  width: 75%;
+  padding-right: 2%;
+  margin: 1%;
+}
+.right-side h2{
+  font-size: 30px;
+  font-weight: 600;
+  color:#000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  padding: 15px 480px;
+  border: 5px solid #000000;
+  margin-top: -0px;
+}
+.next{
+  position: absolute;
+  width: 35px;
+  margin-left: 100%;
+  
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.back{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  margin-left: -100%;
+
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.next:hover, .back:hover{
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(182, 173, 164, 0.6);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
